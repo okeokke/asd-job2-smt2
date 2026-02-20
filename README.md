@@ -98,7 +98,7 @@ b. Method
 ---
 
 ## Percobaan 1
-[Mahasiswa07.java (Initial Commit)](/asd-job2-smt2/Mahasiswa07.java)  
+[Mahasiswa07.java (Initial Commit | Commit (78471e7))](https://github.com/okeokke/asd-job2-smt2/commit/78471e7860cf4346cdedacc5e5696fdc0bd69e28#diff-d2bcd41f805db7994b82414441221155108e43257e5888ae1ebd27c748ff5b0a)  
 Screenshot Inisial:  
 ![Percobaan 1 Initial](P1N0.png)
   
@@ -119,9 +119,25 @@ Screenshot Inisial:
 Selain itu, class/object memiliki method/fungsi, fungsi atau aksi yang bisa dijalankan oleh class/objek, dan selalu/harus ada fungsi main(). 
 2. 4 Atribut, 3 Atribut String (nim, nama, kelas) 1 Atribut double (ipk).
 3. 4 Method, `tampilkanInformasi(): void`, `ubahKelas(kelasBaru: String): void`, `updateIpk(ipkBaru: double): void`, `nilaiKinerja(ipk: double): String`
-4. 
-5. 
-6. 
+4. [Mahasiswa07.java](/asd-job2-smt2/Mahasiswa07.java)  
+Sebelum :    
+```java
+  void updateIPK(double ipkBaru){
+    ipk = ipkBaru;
+  }
+```  
+Sesudah :   
+```java
+  void updateIPK(double ipkBaru){
+    if (ipkBaru >= 0.0 && ipkBaru <= 4.0) {
+      ipk = ipkBaru;
+    } else {
+      System.out.println("IPK tidak valid. Harus antara 0.0 dan 4.0");
+    }
+  }
+```
+5. Method ini mengambil input berupa nilai double ipk. fungsi lalu mengambil nilai ipk tersebut dan melakukan pengecekan/perbandingan menggunakan logika if-else, melakukan pengecekan dari nilai tertinggi, sampai menemukan kondisi if yang tepat. dimana setelah itu, fungsi akan mereturn dalam tipe data String, tetapi tidak mencetaknya, pencetakan tergantung cara panggil fungsi.
+6. [Mahasiswa07.java](/asd-job2-smt2/Mahasiswa07.java)
   
 [Kembali ke #Daftar_Percobaan](#daftar_percobaan-1)
 

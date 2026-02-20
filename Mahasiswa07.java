@@ -9,12 +9,19 @@ public class Mahasiswa07 {
     System.out.println("IPK : ");
     System.out.println("Kelas : ");
   }
+  
   void ubahKelas(String kelasBaru){
     kelas = kelasBaru;
   }
+
   void updateIPK(double ipkBaru){
-    ipk = ipkBaru;
+    if (ipkBaru >= 0.0 && ipkBaru <= 4.0) {
+      ipk = ipkBaru;
+    } else {
+      System.out.println("IPK tidak valid. Harus antara 0.0 dan 4.0");
+    }
   }
+
   String nilaiKinerja(double ipk){
     if (ipk >= 3.5) {
       return "Kinerja sangat baik";
