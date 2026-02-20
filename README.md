@@ -98,7 +98,9 @@ b. Method
 ---
 
 ## Percobaan 1
-
+[Mahasiswa07.java (Initial Commit)](/asd-job2-smt2/Mahasiswa07.java)  
+Screenshot Inisial:  
+![Percobaan 1 Initial](P1N0.png)
   
 [Kembali ke #Daftar_Percobaan](#daftar_percobaan-1)
 
@@ -113,7 +115,13 @@ b. Method
 [Kembali ke #Daftar_Percobaan](#daftar_percobaan-1)
 
 ### Jawaban
-
+1. Setiap class/object memiliki atribut, yaitu data atau variabel yang dimiliki class/object.  
+Selain itu, class/object memiliki method/fungsi, fungsi atau aksi yang bisa dijalankan oleh class/objek, dan selalu/harus ada fungsi main(). 
+2. 4 Atribut, 3 Atribut String (nim, nama, kelas) 1 Atribut double (ipk).
+3. 4 Method, `tampilkanInformasi(): void`, `ubahKelas(kelasBaru: String): void`, `updateIpk(ipkBaru: double): void`, `nilaiKinerja(ipk: double): String`
+4. 
+5. 
+6. 
   
 [Kembali ke #Daftar_Percobaan](#daftar_percobaan-1)
 
