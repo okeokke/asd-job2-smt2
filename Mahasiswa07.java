@@ -4,10 +4,10 @@ public class Mahasiswa07 {
   String kelas;
   double ipk;
   void tampilkanInformasi(){
-    System.out.println("Nama : ");
-    System.out.println("NIM : ");
-    System.out.println("IPK : ");
-    System.out.println("Kelas : ");
+    System.out.println("Nama : "+nama);
+    System.out.println("NIM : "+nim);
+    System.out.println("IPK : "+ipk);
+    System.out.println("Kelas : "+kelas);
   }
   
   void ubahKelas(String kelasBaru){

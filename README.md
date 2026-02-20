@@ -1,3 +1,7 @@
+> [!WARNING]  
+> **Mohon baca detail setiap commit pada [commit history](https://github.com/okeokke/asd-job2-smt2/commits/main/), selain memeriksa hasil pada README.**  
+> **Karena terdapat kesalahan pada file awal Mahasiswa07.java pada [Percobaan 1](#percobaan-1).**  
+> Terima Kasih  
 
 # [Tugas](#tugas)  
 # [Daftar_Percobaan](#daftar_percobaan-1)  
@@ -98,7 +102,14 @@ b. Method
 ---
 
 ## Percobaan 1
+> [WARNING!]  
+> **BUG/KETELEDORAN : Pada fungsi `tampilkanInformasi()` lupa menambahkan `+ variabel` setelah print string, telah di-fix pada versi final file Mahasiswa07.java**
+[**Mahasiswa07.java (Terbaru)**](/asd-job2-smt2/Mahasiswa07.java)  
+
 [Mahasiswa07.java (Initial Commit | Commit (78471e7))](https://github.com/okeokke/asd-job2-smt2/commit/78471e7860cf4346cdedacc5e5696fdc0bd69e28#diff-d2bcd41f805db7994b82414441221155108e43257e5888ae1ebd27c748ff5b0a)  
+Sebelum modifikasi pada [(pertanyaan no.4 pada percobaan 1)](#pertanyaan)  
+
+
 Screenshot Inisial:  
 ![Percobaan 1 Initial](P1N0.png)
   
