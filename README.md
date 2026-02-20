@@ -101,8 +101,9 @@ b. Method
 
 ---
 
-## Percobaan 1
-> [WARNING!]  
+## Percobaan 1  
+
+> [!WARNING]  
 > **BUG/KETELEDORAN : Pada fungsi `tampilkanInformasi()` lupa menambahkan `+ variabel` setelah print string, telah di-fix pada versi final file Mahasiswa07.java**
 [**Mahasiswa07.java (Terbaru)**](/asd-job2-smt2/Mahasiswa07.java)  
 
