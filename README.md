@@ -155,7 +155,11 @@ Sesudah :
 
 ---
 
-## Percobaan 2
+## Percobaan 2  
+  
+[MahasiswaMain07.java (Initial Commit)](/asd-job2-smt2/MahasiswaMain07.java)  
+Screenshot Inisial:  
+![Percobaan 2 Initial](P2N0.png)
 
   
 [Kembali ke #Daftar_Percobaan](#daftar_percobaan-1)
@@ -168,7 +172,14 @@ Sesudah :
 [Kembali ke #Daftar_Percobaan](#daftar_percobaan-1)
 
 ### Jawaban
-
+1. 
+```java
+Mahasiswa07 mhs1 = new Mahasiswa07(); 
+```
+2. Menggunakan titik (`.`) setelah nama variabel objek di-ikuti dengan nama atribut atau method yang ingin di-akses beserta isi parameter yang dibutuhkan.  
+Contoh : `mhs1.ubahKelas("SIB-1F")`   
+3. Java mengakses kode secara sekuensial/berurutan dari baris atas/awal sampai baris bawah/akhir, dan di antara 2 panggilan method `tampilInformasi()` pada class `Mahasiswa07`, terdapat panggilan yang mengubah nilai atribut dari class `Mahasiswa07` yang sudah di-assign pada awal fungsi `MahasiswaMain07` yaitu pada atribut `ipk` dan `kelas`.  
+atribut tersebut mengalami update nilai dengan panggilan pada fungsi `ubahKelas(String)` dan `updateIPK(double)`, perubahan nilai atribut tersebut membuat panggilan `tampilInformasi()` ke-dua memiliki output yang berbeda dengan yang pertama sebelum perubahan nilai pada atribut dilakukan.   
   
 [Kembali ke #Daftar_Percobaan](#daftar_percobaan-1)
 
