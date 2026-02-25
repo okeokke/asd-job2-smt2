@@ -186,9 +186,9 @@ atribut tersebut mengalami update nilai dengan panggilan pada fungsi `ubahKelas(
 ---
 
 ## Percobaan 3  
-Screenshot modifikasi [**Mahasiswa07.java**](/asd-job2-smt2/Mahasiswa07.java) :  
+Screenshot modifikasi [**Mahasiswa07.java** (commit 54ee4dd)](https://github.com/okeokke/asd-job2-smt2/commit/54ee4dd144f1d391983817710f588bf132639ce1#diff-d2bcd41f805db7994b82414441221155108e43257e5888ae1ebd27c748ff5b0a) :  
 ![Percobaan 3 Mahasiswa07.java Inisial](P3_A.png)
-Screenshot modifikasi [**MahasiswaMain07.java**](/asd-job2-smt2/MahasiswaMain07.java) :  
+Screenshot modifikasi [**MahasiswaMain07.java** (commit 54ee4dd)](https://github.com/okeokke/asd-job2-smt2/commit/54ee4dd144f1d391983817710f588bf132639ce1#diff-760c8d2e11596e662d7013c3cd8c6475c0bc09c8c5f82f03bac6a5037f16a0ae) :  
 ![Percobaan 3 MahasiswaMain07.java Inisial](P3_B.png)
 Output Percobaan 3 : ![Output Percobaan 3](/asd-job2-smt2/P3_Output.png)  
   
@@ -196,7 +196,10 @@ Output Percobaan 3 : ![Output Percobaan 3](/asd-job2-smt2/P3_Output.png)
 
 ### Pertanyaan
 1. Pada class Mahasiswa di Percobaan 3, tunjukkan baris kode program yang digunakan untuk mendeklarasikan konstruktor berparameter!
-2. Perhatikan class MahasiswaMain. Apa sebenarnya yang dilakukan pada baris program berikut?
+2. Perhatikan class MahasiswaMain. Apa sebenarnya yang dilakukan pada baris program berikut? 
+```java
+Mahasiswa07 mhs2 = new Mahasiswa07("Rizky Pratama", "2241720172", "TI 2C", 3.20);
+```
 3. Hapus konstruktor default pada class Mahasiswa, kemudian compile dan run program. Bagaimana hasilnya? Jelaskan mengapa hasilnya demikian!
 4. Setelah melakukan instansiasi object, apakah method di dalam class Mahasiswa harus diakses secara berurutan? Jelaskan alasannya!
 5. Buat object baru dengan nama mhs<NamaMahasiswa> menggunakan konstruktor berparameter dari class Mahasiswa!
@@ -205,6 +208,29 @@ Output Percobaan 3 : ![Output Percobaan 3](/asd-job2-smt2/P3_Output.png)
 [Kembali ke #Daftar_Percobaan](#daftar_percobaan-1)
 
 ### Jawaban
+1. 
+```java
+public Mahasiswa07(String nama, String nim, String kelas, double ipk) {
+    this.nama = nama;
+    this.nim = nim;
+    this.kelas = kelas;
+    this.ipk = ipk;
+  }
+```
+2. Instansiasi class atau object   
+3. Program tidak bisa berjalan atau error, karena instansiasi dilakukan tanpa menambahkan parameter pada method yang membutuhkan parameter.
+4. Tidak, karena class/object tersebut tidak memiliki fungsi main, dan semua method yang ada pada class tersebut berjalan secara independen atau hanya berjalan jika dipanggil (on demand).
+5. **& 6.** [MahasiswaMain07.java](/asd-job2-smt2/MahasiswaMain07.java)
+```java
+...
+Mahasiswa07 mhsAbil = new Mahasiswa07("Ghulam Ahmad Billah", "254107060110", "MMB 1B", 3.43);
+    mhsAbil.updateIPK(3.84);
+    mhsAbil.ubahKelas("SIB 1F"); 
+    mhsAbil.tampilkanInformasi();
+...
+```
+Output :
+![output](P3_Mod_Output.png)
 
-  
+
 [Kembali ke #Daftar_Percobaan](#daftar_percobaan-1)

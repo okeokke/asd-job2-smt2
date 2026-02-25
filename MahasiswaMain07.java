@@ -14,5 +14,10 @@ public class MahasiswaMain07 {
     Mahasiswa07 mhs2 = new Mahasiswa07("Rizky Pratama", "2241720172", "TI 2C", 3.20);
     mhs2.updateIPK(3.30);
     mhs2.tampilkanInformasi();
+
+    Mahasiswa07 mhsAbil = new Mahasiswa07("Ghulam Ahmad Billah", "254107060110", "MMB 1B", 3.43);
+    mhsAbil.updateIPK(3.84);
+    mhsAbil.ubahKelas("SIB 1F"); 
+    mhsAbil.tampilkanInformasi();
   }
 }
