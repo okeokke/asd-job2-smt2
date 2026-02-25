@@ -105,7 +105,7 @@ b. Method
 
 > [!WARNING]  
 > **BUG/KETELEDORAN : Pada fungsi `tampilkanInformasi()` lupa menambahkan `+ variabel` setelah print string, telah di-fix pada versi final file Mahasiswa07.java**
-[**Mahasiswa07.java (Terbaru)**](/asd-job2-smt2/Mahasiswa07.java)  
+[**Mahasiswa07.java (Fixed | Commit 770f276)**](https://github.com/okeokke/asd-job2-smt2/commit/770f276bda885cf4a4c3bf7fc9e95fdb6db2f54d)  
 
 [Mahasiswa07.java (Initial Commit | Commit (78471e7))](https://github.com/okeokke/asd-job2-smt2/commit/78471e7860cf4346cdedacc5e5696fdc0bd69e28#diff-d2bcd41f805db7994b82414441221155108e43257e5888ae1ebd27c748ff5b0a)  
 Sebelum modifikasi pada [(pertanyaan no.4 pada percobaan 1)](#pertanyaan)  
@@ -131,7 +131,7 @@ Screenshot Inisial:
 Selain itu, class/object memiliki method/fungsi, fungsi atau aksi yang bisa dijalankan oleh class/objek, dan selalu/harus ada fungsi main(). 
 2. 4 Atribut, 3 Atribut String (nim, nama, kelas) 1 Atribut double (ipk).
 3. 4 Method, `tampilkanInformasi(): void`, `ubahKelas(kelasBaru: String): void`, `updateIpk(ipkBaru: double): void`, `nilaiKinerja(ipk: double): String`
-4. [Mahasiswa07.java](/asd-job2-smt2/Mahasiswa07.java)  
+4. [Mahasiswa07.java (Commit Fixed)](https://github.com/okeokke/asd-job2-smt2/commit/770f276bda885cf4a4c3bf7fc9e95fdb6db2f54d)  
 Sebelum :    
 ```java
   void updateIPK(double ipkBaru){
@@ -149,7 +149,7 @@ Sesudah :
   }
 ```
 5. Method ini mengambil input berupa nilai double ipk. fungsi lalu mengambil nilai ipk tersebut dan melakukan pengecekan/perbandingan menggunakan logika if-else, melakukan pengecekan dari nilai tertinggi, sampai menemukan kondisi if yang tepat. dimana setelah itu, fungsi akan mereturn dalam tipe data String, tetapi tidak mencetaknya, pencetakan tergantung cara panggil fungsi.
-6. [Mahasiswa07.java](/asd-job2-smt2/Mahasiswa07.java)
+6. [Mahasiswa07.java (Commit Fixed)](https://github.com/okeokke/asd-job2-smt2/commit/770f276bda885cf4a4c3bf7fc9e95fdb6db2f54d) 
   
 [Kembali ke #Daftar_Percobaan](#daftar_percobaan-1)
 
@@ -157,7 +157,7 @@ Sesudah :
 
 ## Percobaan 2  
   
-[MahasiswaMain07.java (Initial Commit)](/asd-job2-smt2/MahasiswaMain07.java)  
+[MahasiswaMain07.java (Initial Commit | Commit 6e6ff9f)](https://github.com/okeokke/asd-job2-smt2/commit/6e6ff9f66eced42bc6c3e351f95d7238e3d1439d)  
 Screenshot Inisial:  
 ![Percobaan 2 Initial](P2N0.png)
 
@@ -186,7 +186,11 @@ atribut tersebut mengalami update nilai dengan panggilan pada fungsi `ubahKelas(
 ---
 
 ## Percobaan 3  
-
+Screenshot modifikasi [**Mahasiswa07.java**](/asd-job2-smt2/Mahasiswa07.java) :  
+![Percobaan 3 Mahasiswa07.java Inisial](P3_A.png)
+Screenshot modifikasi [**MahasiswaMain07.java**](/asd-job2-smt2/MahasiswaMain07.java) :  
+![Percobaan 3 MahasiswaMain07.java Inisial](P3_B.png)
+Output Percobaan 3 : ![Output Percobaan 3](/asd-job2-smt2/P3_Output.png)  
   
 [Kembali ke #Daftar_Percobaan](#daftar_percobaan-1)
 
