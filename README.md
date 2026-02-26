@@ -13,6 +13,7 @@
 
 [**Tugas 2**](#tugas_2)  
 [**Soal Tugas 2**](#soal_tugas_2)
+[**Jawaban Tugas 2**](#jawaban_tugas_2)  
 
 
 ## TUGAS_1    
@@ -101,6 +102,13 @@ b. Method
 - `setStatusAktif(boolean status)`: method ini digunakan untuk mengatur status aktif dosen. Jika parameter status bernilai true, dosen menjadi aktif. Jika bernilai false, dosen dinyatakan tidak aktif.
 - `hitungMasaKerja(int thnSkrg)`: method ini menghitung dan mengembalikan masa kerja dosen dalam tahun berdasarkan tahun bergabung dan tahun saat ini (thnSkrg) yang diberikan sebagai parameter.
 - `ubahKeahlian(String bidang)`: method ini digunakan untuk mengubah bidang keahlian dosen.
+
+
+### JAWABAN_TUGAS_2
+[**Dosen07.java**](/asd-job2-smt2/Dosen07.java)  
+[**DosenMain07.java**](/asd-job2-smt2/DosenMain07.java)  
+Contoh Hasil output:  
+![Output](T2_output.png)
 
 ---  
 
