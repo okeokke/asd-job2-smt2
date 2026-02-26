@@ -3,12 +3,20 @@
 > **Karena terdapat kesalahan pada file awal Mahasiswa07.java pada [Percobaan 1](#percobaan-1).**  
 > Terima Kasih  
 
-# [Tugas](#tugas)  
+# [Tugas](#tugas-1)  
 # [Daftar_Percobaan](#daftar_percobaan-1)  
 
 # TUGAS
-  
-### TUGAS 1    
+[**Tugas 1**](#tugas_1)  
+[**Soal Tugas 1**](#soal_tugas_1)  
+[**Jawaban Tugas 1**](#jawaban_tugas_1)  
+
+[**Tugas 2**](#tugas_2)  
+[**Soal Tugas 2**](#soal_tugas_2)
+
+
+## TUGAS_1    
+### SOAL_TUGAS_1
 Soal :  
 Diberikan class diagram dari class MataKuliah sebagai berikut:  
 |MataKuliah|  
@@ -19,10 +27,10 @@ Diberikan class diagram dari class MataKuliah sebagai berikut:
 |`sks: int`|  
 |`jumlahJam: int`|  
 |**Method**|
-|`tampilInformasi()`|  
-|`ubahSKS(sksBaru: int)`|  
-|`tambahJam(jam: int)`|  
-|`kurangiJam(jam: int)`|  
+|`tampilInformasi(): void`|  
+|`ubahSKS(sksBaru: int): void`|  
+|`tambahJam(jam: int): void`|  
+|`kurangiJam(jam: int): void`|  
 
 Buat program untuk mengimplementasikan class MataKuliah berdasarkan class diagram di atas, yang terdiri dari:
 - Class MataKuliah (MataKuliah<NoAbsen>.java)
@@ -43,11 +51,19 @@ b. Method
 - `tambahJam(int jam)`: method ini menambahkan jumlah jam tambahan ke jumlah jam yang sudah ada untuk mata kuliah.  
 - `kurangiJam(int jam)`: method ini berfungsi untuk mengurangi jumlah jam dari mata kuliah. Sebelum mengurangi, method ini melakukan pengecekan untuk memastikan bahwa jumlah jam yang tersisa cukup untuk dikurangi. Jika jumlah jam tidak mencukupi (jumlah jam awal lebih kecil dari jam pengurang), method ini akan memberi tahu pengguna bahwa pengurangan tidak dapat dilakukan. Jika pengurangan berhasil, method ini mengupdate jumlah jam dan mencetak nilai jumlah jam yang baru.
 
+### JAWABAN_TUGAS_1
+
+[**MataKuliah07.java**](/asd-job2-smt2/MataKuliah07.java)  
+[**MataKuliahMain07.java**](/asd-job2-smt2/MataKuliahMain07.java)  
+Contoh Hasil output:  
+![Output](T1_Output.png)
+
 
 
 ---  
 
-### TUGAS 2  
+## TUGAS_2  
+### SOAL_TUGAS_2
 Soal :  
 Diberikan class diagram dari class Dosen sebagai berikut:  
 
